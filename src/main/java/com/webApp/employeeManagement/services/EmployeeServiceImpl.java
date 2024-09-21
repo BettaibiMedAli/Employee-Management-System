@@ -45,7 +45,7 @@ public class EmployeeServiceImpl implements EmployeeService{
     }
 
     @Override
-    public void delteEmployeeById(Long id) {
+    public void deleteEmployeeById(Long id) {
         this.employeeRepo.deleteById(id);
     }
 
