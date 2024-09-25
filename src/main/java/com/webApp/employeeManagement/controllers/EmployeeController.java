@@ -1,6 +1,7 @@
 package com.webApp.employeeManagement.controllers;
 import com.webApp.employeeManagement.models.Employee;
 import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import com.webApp.employeeManagement.services.EmployeeService;
 import com.webApp.employeeManagement.services.EmployeeServiceImpl;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+@Controller
 @RequestMapping("/api/employees")
 public class EmployeeController {
 
